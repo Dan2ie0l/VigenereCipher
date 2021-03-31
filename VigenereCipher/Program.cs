@@ -20,18 +20,16 @@ namespace VigenereCipher
                     break;
 
                 case "decipher":
-                    Console.Write("Ciphered Text:");
-                    string cipheredText = Console.ReadLine();
-                    Console.WriteLine(Decipher(cipheredText, "cipher"));
+                  
+                    Console.WriteLine(Decipher(text, "cipher"));
                     break;
                 case "e":
                     Console.WriteLine(Encipher(text, "cipher"));
                     break;
 
                 case "d":
-                    Console.Write("Ciphered Text:");
-                    string cipherdText = Console.ReadLine();
-                    Console.WriteLine(Decipher(cipherdText, "cipher"));
+                    
+                    Console.WriteLine(Decipher(text, "cipher"));
                     break;
             }
           
